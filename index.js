@@ -90,7 +90,7 @@ var styles = StyleSheet.create({
     flex: 1,
   },
   tabbarView: {
-    alignItems: 'center',
+    alignItems: 'flex-end',
     backgroundColor: 'transparent',
     bottom: 0,
     flexDirection: 'row',
