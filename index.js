@@ -1,12 +1,6 @@
 'use strict';
-
-var React = require('react-native');
-var {
-  Component,
-  StyleSheet,
-  TouchableOpacity,
-  View,
-} = React;
+import React, {Component} from 'react';
+import {StyleSheet, TouchableOpacity, View} from 'react-native';
 
 const iconStyle = (index, props) => {
   return index === props.children.length - 1
